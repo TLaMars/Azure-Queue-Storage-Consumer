@@ -1,0 +1,16 @@
+{
+  "name": "azure-storage-queue-consumer",
+  "version": "0.0.1",
+  "description": "This package allows you to poll messages from the azure storage queue",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "author": "Thomas Lamars",
+  "license": "",
+  "dependencies": {
+    "@azure/storage-queue": "^12.1.0"
+  }
+}
