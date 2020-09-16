@@ -42,6 +42,18 @@ const consumer = QueueConsumer.create({
 });
 ```
 
+Now that we created the Consumer we need to start the consumer to start consuming the messages.
+
+```typescript
+consumer.start();
+```
+
+If you don't want to consume messages anymore you can stop the consumer.
+
+```typescript
+consumer.stop();
+```
+
 # What still needs to be done:
 
 - Deleting messages after consuming and processing it
