@@ -25,7 +25,7 @@ npm install azure-storage-queue-consumer
 To use the QueueConsumer we first need to import it, this can be done on the following way:
 
 ```typescript
-import QueueConsumer = require("azure-queue-consumer");
+import QueueConsumer = require("azure-storage-queue-consumer");
 ```
 
 After importing the package we need to setup the consumer so we can consume the messages from our queue.
