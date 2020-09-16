@@ -36,9 +36,8 @@ class QueueConsumer {
       const queueClient = queueServiceClient.getQueueClient(queueName);
       const response = await queueClient.receiveMessages();
       const messages = response.receivedMessageItems;
-      console.log(messages);
+
       messages.forEach((message) => {
-        console.log(message.messageText);
         handleMessage(message.messageText);
       });
     }, this.interval);
