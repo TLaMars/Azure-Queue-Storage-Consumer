@@ -12,5 +12,9 @@
   "license": "",
   "dependencies": {
     "@azure/storage-queue": "^12.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TLaMars/Azure-Queue-Storage-Consumer/settings"
   }
 }
